@@ -1,0 +1,53 @@
+[part1-example1]
+interpreter = "cpython-314"
+code = "ff202507.py"
+input_path = "example1.txt"
+value = 11
+solved = true
+duration = 6.624999514315277e-06
+parse_duration = 4.1239982238039374e-06
+
+[part1-example2]
+interpreter = "cpython-314"
+code = "ff202507.py"
+input_path = "example2.txt"
+value = 10
+solved = true
+duration = 4.382003680802882e-06
+parse_duration = 2.644999767653644e-06
+
+[part2-example1]
+interpreter = "cpython-314"
+code = "ff202507.py"
+input_path = "example1.txt"
+value = 108
+solved = true
+duration = 7.773996912874281e-06
+parse_duration = 4.1239982238039374e-06
+
+[part2-example2]
+interpreter = "cpython-314"
+code = "ff202507.py"
+input_path = "example2.txt"
+value = 560
+solved = true
+duration = 5.730995326302946e-06
+parse_duration = 2.644999767653644e-06
+
+[part3-example1]
+interpreter = "cpython-314"
+code = "ff202507.py"
+input_path = "example1.txt"
+value = 98
+solved = true
+duration = 9.567003871779889e-06
+parse_duration = 4.1239982238039374e-06
+
+[part3-example2]
+interpreter = "cpython-314"
+code = "ff202507.py"
+input_path = "example2.txt"
+value = 2_520
+solved = true
+duration = 6.047994247637689e-06
+parse_duration = 2.644999767653644e-06

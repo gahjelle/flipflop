@@ -1,0 +1,31 @@
+[challenge]
+name = "FlipFlop"
+url = "https://flipflop.slome.org/"
+icon = "⭐"
+
+[patterns]
+solve = "ff*{suffix}.py"
+viz = "ffviz*.py"
+input = "input.txt"
+example = "example*.txt"
+
+[code]
+parse_function = "parse_data"
+solve_functions = ["part1", "part2", "part3"]
+
+[template]
+file_name = "ff{event:04d}{puzzle:02d}.py"
+docstring = "Flip Flop puzzle {puzzle}, {event}: {name}."
+
+[template.readme]
+challenge = "{root_dir}/README.template"
+language = "{root_dir}/README.language.template"
+event = "{root_dir}/README.event.template"
+
+[languages.python]
+language_dir = "{root_dir}/python/src"
+icon = "🐍"
+
+# [languages.elixir]
+# language_dir = "{root_dir}/elixir/lib"
+# icon = "💧"

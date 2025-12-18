@@ -1,0 +1,18 @@
+[project]
+name = "flipflop"
+version = "0.1.0"
+description = "Solutions to puzzles at flipflop.slome.org"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = ["gahllenges"]
+
+[project.scripts]
+ff = "flipflop.__main__:main"
+flipflop = "flipflop.__main__:main"
+
+[build-system]
+requires = ["uv_build>=0.9.17,<0.10.0"]
+build-backend = "uv_build"
+
+[tool.uv.sources]
+gahllenges = { path = "../../gahllenges", editable = true }

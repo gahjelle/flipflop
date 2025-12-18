@@ -1,0 +1,16 @@
+report/
+puzzles/
+input.txt
+expected.toml
+
+Makefile
+
+README.template
+README.*.template
+
+__pycache__
+.python-version
+*.egg-info/
+
+.envrc
+.vscode

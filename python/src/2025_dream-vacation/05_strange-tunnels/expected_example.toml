@@ -1,0 +1,26 @@
+[part1-example1]
+interpreter = "cpython-314"
+code = "ff202505.py"
+input_path = "example1.txt"
+value = 38
+solved = true
+duration = 2.673994458746165e-06
+parse_duration = 2.2283995349425822e-05
+
+[part2-example1]
+interpreter = "cpython-314"
+code = "ff202505.py"
+input_path = "example1.txt"
+value = "Bc"
+solved = true
+duration = 9.768999007064849e-06
+parse_duration = 2.2283995349425822e-05
+
+[part3-example1]
+interpreter = "cpython-314"
+code = "ff202505.py"
+input_path = "example1.txt"
+value = -6
+solved = true
+duration = 6.173999281600118e-06
+parse_duration = 2.2283995349425822e-05

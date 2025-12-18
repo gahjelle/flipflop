@@ -1,0 +1,107 @@
+[part1-example1]
+interpreter = "cpython-314"
+code = "ff202502.py"
+input_path = "example1.txt"
+value = 1
+solved = true
+duration = 2.748005499597639e-06
+parse_duration = 1.9219951354898512e-06
+
+[part1-example2]
+interpreter = "cpython-314"
+code = "ff202502.py"
+input_path = "example2.txt"
+value = 6
+solved = true
+duration = 3.197004843968898e-06
+parse_duration = 2.6850029826164246e-06
+
+[part1-example3]
+interpreter = "cpython-314"
+code = "ff202502.py"
+input_path = "example3.txt"
+value = 5
+solved = true
+duration = 2.392996975686401e-06
+parse_duration = 1.8840000848285854e-06
+
+[part1-example4]
+interpreter = "cpython-314"
+code = "ff202502.py"
+input_path = "example4.txt"
+value = 12
+solved = true
+duration = 2.7149944799020886e-06
+parse_duration = 2.125998435076326e-06
+
+[part2-example1]
+interpreter = "cpython-314"
+code = "ff202502.py"
+input_path = "example1.txt"
+value = 1
+solved = true
+duration = 9.067996870726347e-06
+parse_duration = 1.9219951354898512e-06
+
+[part2-example2]
+interpreter = "cpython-314"
+code = "ff202502.py"
+input_path = "example2.txt"
+value = 15
+solved = true
+duration = 6.041002052370459e-06
+parse_duration = 2.6850029826164246e-06
+
+[part2-example3]
+interpreter = "cpython-314"
+code = "ff202502.py"
+input_path = "example3.txt"
+value = 15
+solved = true
+duration = 5.3919939091429114e-06
+parse_duration = 1.8840000848285854e-06
+
+[part2-example4]
+interpreter = "cpython-314"
+code = "ff202502.py"
+input_path = "example4.txt"
+value = 78
+solved = true
+duration = 7.436996384058148e-06
+parse_duration = 2.125998435076326e-06
+
+[part3-example1]
+interpreter = "cpython-314"
+code = "ff202502.py"
+input_path = "example1.txt"
+value = 1
+solved = true
+duration = 2.065199805656448e-05
+parse_duration = 1.9219951354898512e-06
+
+[part3-example2]
+interpreter = "cpython-314"
+code = "ff202502.py"
+input_path = "example2.txt"
+value = 4
+solved = true
+duration = 2.027700247708708e-05
+parse_duration = 2.6850029826164246e-06
+
+[part3-example3]
+interpreter = "cpython-314"
+code = "ff202502.py"
+input_path = "example3.txt"
+value = 5
+solved = true
+duration = 1.2379001418594271e-05
+parse_duration = 1.8840000848285854e-06
+
+[part3-example4]
+interpreter = "cpython-314"
+code = "ff202502.py"
+input_path = "example4.txt"
+value = 144
+solved = true
+duration = 1.7020000086631626e-05
+parse_duration = 2.125998435076326e-06
