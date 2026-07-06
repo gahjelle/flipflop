@@ -68,16 +68,10 @@ def move(
     size: int,
 ) -> list[Coordinate]:
     """Move several ticks."""
-    if num_ticks == 0:
-        return positions
-    if num_ticks == 1:
-        return tick(speeds, positions, size)
-
-    double, rest = divmod(num_ticks, 2)
-    positions = [
-        (2 * x % size, 2 * y % size) for x, y in move(double, speeds, positions, size)
+    return [
+        ((x + dx * num_ticks) % size, (y + dy * num_ticks) % size)
+        for (x, y), (dx, dy) in zip(positions, speeds)
     ]
-    return tick(speeds, positions, size) if rest else positions
 
 
 def in_frame(positions: list[Coordinate], size: int) -> int:
