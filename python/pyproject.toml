@@ -16,3 +16,8 @@ build-backend = "uv_build"
 
 [tool.uv.sources]
 gahllenges = { path = "../../gahllenges", editable = true }
+
+[dependency-groups]
+dev = [
+    "ipython>=9.15.0",
+]
