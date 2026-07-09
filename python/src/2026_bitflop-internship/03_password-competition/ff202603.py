@@ -1,5 +1,6 @@
 """Flip Flop puzzle 3, 2026: Password Competition."""
 
+import itertools
 import string
 
 
@@ -71,12 +72,10 @@ def longest_sequence(password: str) -> int:
     while any(identical):
         identical = [
             (curr == prev) * curr
-            for prev, curr in zip(identical[:-1], identical[1:], strict=True)
+            for prev, curr in itertools.pairwise(identical)
         ]
         longest += 1
-    if longest < 3:
-        return 0
-    return longest**2
+    return 0 if longest < 3 else longest**2
 
 
 def contains_color(password: str) -> int:
