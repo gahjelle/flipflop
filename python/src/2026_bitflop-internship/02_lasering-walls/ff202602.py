@@ -41,12 +41,26 @@ def part3(data: list[int]) -> int:
 
 
 def in_range(number, min=1, max=100) -> int:
-    """Keep the number in range, with rollover."""
-    if number < min:
-        return max - (min - number) + 1
-    if number > max:
-        return min + (number - max) - 1
-    return number
+    """Keep the number in range, with rollover.
+
+    # Examples:
+
+    >>> in_range(42)
+    42
+    >>> in_range(0)
+    100
+    >>> in_range(101)
+    1
+    >>> in_range(-3)
+    97
+    """
+    return (
+        max - (min - number) + 1
+        if number < min
+        else min + (number - max) - 1
+        if number > max
+        else number
+    )
 
 
 def warmest(item: tuple[int, int]) -> tuple[int, int]:
