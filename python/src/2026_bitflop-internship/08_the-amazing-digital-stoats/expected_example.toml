@@ -1,0 +1,26 @@
+[part1-example1]
+interpreter = "cpython-314"
+code = "ff202608.py"
+input_path = "example1.txt"
+value = 4_102
+solved = true
+duration = 2.4028995539993048e-05
+parse_duration = 6.561199552379549e-05
+
+[part2-example1]
+interpreter = "cpython-314"
+code = "ff202608.py"
+input_path = "example1.txt"
+value = 433
+solved = true
+duration = 0.00013009199756197631
+parse_duration = 6.561199552379549e-05
+
+[part3-example1]
+interpreter = "cpython-314"
+code = "ff202608.py"
+input_path = "example1.txt"
+value = 117_302_657
+solved = true
+duration = 0.0001377180014969781
+parse_duration = 6.561199552379549e-05
