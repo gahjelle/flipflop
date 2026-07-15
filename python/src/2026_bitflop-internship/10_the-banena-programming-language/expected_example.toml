@@ -1,0 +1,188 @@
+[part1-example1]
+interpreter = "cpython-314"
+code = "ff202610.py"
+input_path = "example1.txt"
+value = 6
+solved = true
+duration = 1.3557990314438939e-05
+parse_duration = 1.2441014405339956e-05
+
+[part1-example2]
+interpreter = "cpython-314"
+code = "ff202610.py"
+input_path = "example2.txt"
+value = 3
+solved = true
+duration = 2.8198002837598324e-05
+parse_duration = 3.320199903100729e-05
+
+[part1-example3]
+interpreter = "cpython-314"
+code = "ff202610.py"
+input_path = "example3.txt"
+value = 2
+solved = true
+duration = 1.7784012015908957e-05
+parse_duration = 1.9008992239832878e-05
+
+[part1-example4]
+interpreter = "cpython-314"
+code = "ff202610.py"
+input_path = "example4.txt"
+value = 1
+solved = true
+duration = 1.6478996258229017e-05
+parse_duration = 2.6935013011097908e-05
+
+[part1-example5]
+interpreter = "cpython-314"
+code = "ff202610.py"
+input_path = "example5.txt"
+value = 0
+solved = true
+duration = 4.1759980376809835e-05
+parse_duration = 2.1025014575570822e-05
+
+[part1-example6]
+interpreter = "cpython-314"
+code = "ff202610.py"
+input_path = "example6.txt"
+value = 44_802
+solved = true
+duration = 0.003365657990798354
+parse_duration = 3.2710988307371736e-05
+
+[part1-example7]
+interpreter = "cpython-314"
+code = "ff202610.py"
+input_path = "example7.txt"
+value = 610
+solved = true
+duration = 5.4485019063577056e-05
+parse_duration = 2.4715991457924247e-05
+
+[part2-example1]
+interpreter = "cpython-314"
+code = "ff202610.py"
+input_path = "example1.txt"
+value = 0
+solved = true
+duration = 7.208299939520657e-05
+parse_duration = 1.2441014405339956e-05
+
+[part2-example2]
+interpreter = "cpython-314"
+code = "ff202610.py"
+input_path = "example2.txt"
+value = 0
+solved = true
+duration = 0.00017465802375227213
+parse_duration = 3.320199903100729e-05
+
+[part2-example3]
+interpreter = "cpython-314"
+code = "ff202610.py"
+input_path = "example3.txt"
+value = 0
+solved = true
+duration = 0.00011083600111305714
+parse_duration = 1.9008992239832878e-05
+
+[part2-example4]
+interpreter = "cpython-314"
+code = "ff202610.py"
+input_path = "example4.txt"
+value = 0
+solved = true
+duration = 8.737502503208816e-05
+parse_duration = 2.6935013011097908e-05
+
+[part2-example5]
+interpreter = "cpython-314"
+code = "ff202610.py"
+input_path = "example5.txt"
+value = 0
+solved = true
+duration = 0.0005024290003348142
+parse_duration = 2.1025014575570822e-05
+
+[part2-example6]
+interpreter = "cpython-314"
+code = "ff202610.py"
+input_path = "example6.txt"
+value = 0
+solved = true
+duration = 0.05943525402108207
+parse_duration = 3.2710988307371736e-05
+
+[part2-example7]
+interpreter = "cpython-314"
+code = "ff202610.py"
+input_path = "example7.txt"
+value = 0
+solved = true
+duration = 0.0005677460285369307
+parse_duration = 2.4715991457924247e-05
+
+[part3-example1]
+interpreter = "cpython-314"
+code = "ff202610.py"
+input_path = "example1.txt"
+value = 0
+solved = true
+duration = 0.0006437999836634845
+parse_duration = 1.2441014405339956e-05
+
+[part3-example2]
+interpreter = "cpython-314"
+code = "ff202610.py"
+input_path = "example2.txt"
+value = 0
+solved = true
+duration = 0.0017780890048015863
+parse_duration = 3.320199903100729e-05
+
+[part3-example3]
+interpreter = "cpython-314"
+code = "ff202610.py"
+input_path = "example3.txt"
+value = 0
+solved = true
+duration = 0.001021790987579152
+parse_duration = 1.9008992239832878e-05
+
+[part3-example4]
+interpreter = "cpython-314"
+code = "ff202610.py"
+input_path = "example4.txt"
+value = 0
+solved = true
+duration = 0.0009124350035563111
+parse_duration = 2.6935013011097908e-05
+
+[part3-example5]
+interpreter = "cpython-314"
+code = "ff202610.py"
+input_path = "example5.txt"
+value = 0
+solved = true
+duration = 0.0043631210282910615
+parse_duration = 2.1025014575570822e-05
+
+[part3-example6]
+interpreter = "cpython-314"
+code = "ff202610.py"
+input_path = "example6.txt"
+value = 0
+solved = true
+duration = 0.8240910890162922
+parse_duration = 3.2710988307371736e-05
+
+[part3-example7]
+interpreter = "cpython-314"
+code = "ff202610.py"
+input_path = "example7.txt"
+value = 0
+solved = true
+duration = 0.004857094987528399
+parse_duration = 2.4715991457924247e-05
