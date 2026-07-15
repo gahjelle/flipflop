@@ -1,7 +1,6 @@
 """Flip Flop puzzle 9, 2026: Thinking With Mazes."""
 
 import collections
-import time
 
 type Coordinate = tuple[int, int]
 type Direction = tuple[int, int]
